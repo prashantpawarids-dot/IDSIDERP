@@ -9,23 +9,23 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'MIT ERP - Login | IDSID Pvt. Ltd.',
   description: 'Enterprise Resource Planning System - IDSID Pvt. Ltd. Login Portal',
-  generator: 'v0.app',
+  generator: 'IDSID Pvt. Ltd.',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/icon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon--32x32.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/in.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/ap-icon.png',
   },
   viewport: {
     width: 'device-width',
